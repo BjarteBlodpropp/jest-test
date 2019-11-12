@@ -17,7 +17,6 @@ const UsageInput = ({ inputHandler }) => {
 
     return (
         <div className={styles.usageInputContainer}>
-            <p>{usage}</p>
             <input type='number' onChange={handleChange}/>
             <button onClick={addUsage}>Legg til</button>
         </div>
